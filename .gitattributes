@@ -1,0 +1,3 @@
+# Preserve the bytes of source snapshots, published tables, and figures.
+* -text
+*.png binary

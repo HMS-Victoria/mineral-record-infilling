@@ -1,0 +1,29 @@
+{
+  "primary_pairs": 18,
+  "full_ap": 0.22073125636072385,
+  "mineral_ap": 0.2701428616732812,
+  "primary_ap_difference": -0.04941160531255736,
+  "primary_relative_difference": -0.18290916519688466,
+  "coverage5_difference": -0.05174195161849579,
+  "region_marginals": {
+    "arizona": -0.04734591438681416,
+    "colorado": -0.07457038648051993,
+    "nevada": -0.026318515070337972
+  },
+  "seed_marginals": {
+    "17": -0.04736422182648999,
+    "29": -0.0666411431326348,
+    "43": -0.034229450978547266
+  },
+  "continue_gates": {
+    "relative_ap_at_least_5pct": false,
+    "at_least_two_positive_regions": false,
+    "at_least_two_positive_seeds": false,
+    "coverage5_not_declining": false
+  },
+  "continue_engineering": false,
+  "secondary_20km": {
+    "ap_difference": -0.05037551060366558,
+    "coverage5_difference": -0.07676099831336138
+  }
+}

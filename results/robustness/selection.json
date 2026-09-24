@@ -1,0 +1,15 @@
+{
+  "bandwidth_km": 5,
+  "primary_baseline": "kernel_density",
+  "baseline_scores": {
+    "nearest": 0.1614739526339921,
+    "kernel_density": 0.2181677443023034,
+    "spatial_rf": 0.20660928927968902
+  },
+  "role": "validation",
+  "L_km": 10,
+  "keep_fraction": 1,
+  "phase_merge": true,
+  "selection_rule": "unrounded maximum, h ascending then nearest/kernel_density/spatial_rf",
+  "at": "2026-09-24T09:11:53.365132+00:00"
+}

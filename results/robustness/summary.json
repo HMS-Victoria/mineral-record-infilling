@@ -1,0 +1,108 @@
+{
+  "primary_scale_km": 10,
+  "primary_keep_fraction": 1.0,
+  "primary_baseline": "kernel_density",
+  "selected_bandwidth_km": 5,
+  "primary_pairs": 18,
+  "nn_ap": 0.2701428616732812,
+  "baseline_ap": 0.2847786259859418,
+  "primary_ap_difference": -0.01463576431266063,
+  "primary_relative_difference": -0.05139347892416312,
+  "coverage5_difference": 0.008739464428149452,
+  "region_marginals": {
+    "arizona": -0.007917298664035307,
+    "colorado": -0.05503436991563307,
+    "nevada": 0.019044375641686484
+  },
+  "seed_marginals": {
+    "17": -0.019245429663826235,
+    "29": -0.005623973967468614,
+    "43": -0.019037889306687043
+  },
+  "positive_regions": 1,
+  "positive_seeds": 0,
+  "continue_gates": {
+    "relative_ap_at_least_5pct": false,
+    "at_least_two_positive_regions": false,
+    "at_least_two_positive_seeds": false,
+    "coverage5_not_declining": true
+  },
+  "main_comparison_passed": false,
+  "all_preset_baselines": {
+    "kernel_density": {
+      "nn_ap": 0.2701428616732812,
+      "baseline_ap": 0.2847786259859418,
+      "ap_difference": -0.01463576431266063,
+      "coverage5_difference": 0.008739464428149452,
+      "baseline_matches_or_exceeds_nn": true
+    },
+    "nearest": {
+      "nn_ap": 0.2701428616732812,
+      "baseline_ap": 0.18184671286880824,
+      "ap_difference": 0.08829614880447298,
+      "coverage5_difference": 0.07011369937557106,
+      "baseline_matches_or_exceeds_nn": false
+    },
+    "spatial_rf": {
+      "nn_ap": 0.2701428616732812,
+      "baseline_ap": 0.23827659114773564,
+      "ap_difference": 0.03186627052554554,
+      "coverage5_difference": 0.012508539646517568,
+      "baseline_matches_or_exceeds_nn": false
+    }
+  },
+  "exceeds_all_preset_baselines": false,
+  "sparse_screening": {
+    "0.5": {
+      "ap_difference": -0.005660543693563161,
+      "coverage5_difference": -0.007582018415126099,
+      "repeats": {
+        "101": {
+          "ap_difference": -0.01210916698154088,
+          "coverage5_difference": -0.009031927466153826
+        },
+        "211": {
+          "ap_difference": -0.004171448654229281,
+          "coverage5_difference": -0.014459497735385728
+        },
+        "307": {
+          "ap_difference": -0.0007010154449193214,
+          "coverage5_difference": 0.0007453699561612555
+        }
+      },
+      "gates": {
+        "mean_ap_positive": false,
+        "coverage5_at_least_minus_2pp": true,
+        "at_least_two_positive_repeats": false
+      },
+      "passed": false
+    },
+    "0.25": {
+      "ap_difference": -0.008561109479045655,
+      "coverage5_difference": -0.02172172379698548,
+      "repeats": {
+        "101": {
+          "ap_difference": 0.0003874989986412962,
+          "coverage5_difference": -0.011155043569862863
+        },
+        "211": {
+          "ap_difference": -0.01717759912049695,
+          "coverage5_difference": -0.029288830574394274
+        },
+        "307": {
+          "ap_difference": -0.008893228315281308,
+          "coverage5_difference": -0.024721297246699307
+        }
+      },
+      "gates": {
+        "mean_ap_positive": false,
+        "coverage5_at_least_minus_2pp": false,
+        "at_least_two_positive_repeats": false
+      },
+      "passed": false
+    }
+  },
+  "conclusion": "insufficient_evidence_for_extra_neural_complexity",
+  "zero_context_is_diagnostic_only": true,
+  "independent_geological_sample_claim": false
+}
