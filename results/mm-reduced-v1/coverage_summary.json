@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "research_version": "mm-reduced-v1",
+  "evidence_date": "2026-10-03",
+  "scope_sha256": "879e2aae39f5378ecf800a6a8e7f7e567c412020b252823020b4a8e495bec014",
+  "scope_tiles": {
+    "train": 12,
+    "validation": 6,
+    "nevada": 3,
+    "arizona": 3,
+    "colorado": 3
+  },
+  "G": {
+    "threshold": 0.9,
+    "groups": {
+      "train": {
+        "effective_area_km2": 73426.81146397116,
+        "covered_area_km2": 73052.3943365984,
+        "fraction": 0.9949008118436891,
+        "passes_90_percent": true
+      },
+      "validation": {
+        "effective_area_km2": 54874.91490264878,
+        "covered_area_km2": 53468.25873890322,
+        "fraction": 0.9743661349408733,
+        "passes_90_percent": true
+      },
+      "nevada": {
+        "effective_area_km2": 30000.0,
+        "covered_area_km2": 29920.55085046184,
+        "fraction": 0.9973516950153947,
+        "passes_90_percent": true
+      },
+      "arizona": {
+        "effective_area_km2": 30000.0,
+        "covered_area_km2": 29911.258983670385,
+        "fraction": 0.9970419661223462,
+        "passes_90_percent": true
+      },
+      "colorado": {
+        "effective_area_km2": 30000.0,
+        "covered_area_km2": 29867.20429853967,
+        "fraction": 0.995573476617989,
+        "passes_90_percent": true
+      }
+    },
+    "status": "passed_G_only"
+  },
+  "R": {
+    "threshold": 0.8,
+    "cell_qualification_threshold": 0.6,
+    "groups": [
+      {
+        "role": "train",
+        "valid_cells": 18555,
+        "original_area_km2": 73426.81146283161,
+        "area_in_cells_with_qualified_fraction_ge_60pct_km2": 64144.97974200919,
+        "fraction": 0.8735907015992265,
+        "passed": true
+      },
+      {
+        "role": "validation",
+        "valid_cells": 13943,
+        "original_area_km2": 54874.91490072764,
+        "area_in_cells_with_qualified_fraction_ge_60pct_km2": 43066.91266372654,
+        "fraction": 0.7848196710944781,
+        "passed": false
+      },
+      {
+        "role": "nevada",
+        "valid_cells": 7500,
+        "original_area_km2": 30000.0,
+        "area_in_cells_with_qualified_fraction_ge_60pct_km2": 25832.0,
+        "fraction": 0.8610666666666666,
+        "passed": true
+      },
+      {
+        "role": "arizona",
+        "valid_cells": 7500,
+        "original_area_km2": 30000.0,
+        "area_in_cells_with_qualified_fraction_ge_60pct_km2": 28908.0,
+        "fraction": 0.9636,
+        "passed": true
+      },
+      {
+        "role": "colorado",
+        "valid_cells": 7500,
+        "original_area_km2": 30000.0,
+        "area_in_cells_with_qualified_fraction_ge_60pct_km2": 19256.0,
+        "fraction": 0.6418666666666667,
+        "passed": false
+      }
+    ],
+    "status": "failed"
+  },
+  "K_status": "not_admitted_unambiguous_mapping_unavailable",
+  "joint_input_audit": "not_run_after_R_failure",
+  "model_counts": {
+    "resource_pilots": 0,
+    "formal_U_Net_fits": 0,
+    "formal_RF_fits": 0,
+    "predictions": 0,
+    "logical_evaluation_views": 0
+  },
+  "limitations": [
+    "R independent review recalculated saved outputs, not full raw COG decoding.",
+    "G saved-cell review did not independently rebuild raw polygon processing.",
+    "Real seam checks cover four engineering windows.",
+    "Existing evaluation regions and labels were exposed; not new independent confirmation."
+  ]
+}

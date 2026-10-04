@@ -1,0 +1,63 @@
+{
+  "research_version": "mm-reduced-v1",
+  "attachment_policy": "Only authored reports, aggregate area metrics, and an authored role coverage figure; no source pixels, records, predictions, or weights.",
+  "assets": [
+    {
+      "file": "results/mm-reduced-v1/R_role_missingness.csv",
+      "source_label": "27图块五分区R覆盖聚合表",
+      "source_filename": "R_role_missingness.csv",
+      "source_sha256": "21d19d63efba11804501c9c8b884a772a2e6e9e1a90fe0dabfc4e5da4435ae54",
+      "published_sha256": "21d19d63efba11804501c9c8b884a772a2e6e9e1a90fe0dabfc4e5da4435ae54",
+      "bytes": 573,
+      "copy_policy": "byte-identical authored aggregate artifact"
+    },
+    {
+      "file": "figures/mm-reduced-v1/R_role_admission.png",
+      "source_label": "五分区R覆盖准入图",
+      "source_filename": "R_role_admission.png",
+      "source_sha256": "e3f85df3c1813abffba4077e349208d4e222761907bfdc7fcf16457969d85ff4",
+      "published_sha256": "e3f85df3c1813abffba4077e349208d4e222761907bfdc7fcf16457969d85ff4",
+      "bytes": 97151,
+      "copy_policy": "byte-identical authored aggregate artifact"
+    },
+    {
+      "file": "results/mm-reduced-v1/coverage_summary.json",
+      "source_label": "G/R准入记录的公开字段汇总",
+      "published_sha256": "279a58b03ab26233acee22ee117e811e642e24761afb5c67ca19df3ba4b3fd17",
+      "bytes": 3336,
+      "copy_policy": "public field projection; not a raw record copy"
+    }
+  ],
+  "evidence_records": [
+    {
+      "source_filename": "sgmc_formal_coverage.json",
+      "source_sha256": "f5f1d4e357358d0008cfa63e8628e0837ad1c5bf1659322cd513c8fbd1d6ac8b",
+      "published": false
+    },
+    {
+      "source_filename": "remote_sensing_admission.json",
+      "source_sha256": "295bc5a53a790e5e3d4b00bd14fae11b1a9802f25ec56addb9f8e3192026b7b1",
+      "published": false
+    },
+    {
+      "source_filename": "local_R_supervision.json",
+      "source_sha256": "774b8df255537ea31045d731588330b916ac68082f511fbb46d5e8587be74b59",
+      "published": false
+    },
+    {
+      "source_filename": "independent_R_coverage_check.json",
+      "source_sha256": "270b41fc4cadef2e00496cdf4941898068f4c12f99fc798bc62cfbcafa3948b4",
+      "published": false
+    },
+    {
+      "source_filename": "G_saved_data_independent_check.json",
+      "source_sha256": "5143b0bd9294cd385bb9ad24ab238fe45de7009beca26cc10da8ae17ab240e0d",
+      "published": false
+    },
+    {
+      "source_filename": "coverage_figure_manifest.json",
+      "source_sha256": "dbb193878407dabd832b6e8b2d5138854c075cbc35f299714cc61dbfb590a525",
+      "published": false
+    }
+  ]
+}
