@@ -1,6 +1,6 @@
 # 数据与参考资料
 
-更新：2026 年 10 月 6 日。这里说明本项目实际使用的固定数据来源；数据版本不能解释为来源机构的最新发布。
+更新：2026 年 10 月 12 日。这里说明本项目实际使用的固定数据来源；数据版本不能解释为来源机构的最新发布。
 
 ## 9月模型实验的数据来源
 
@@ -21,9 +21,13 @@ GMNA 包中使用 39,828 个地质多边形；断层包中读取 112,809 个几�
 
 地质采用 [USGS SGMC 2026 GeMS 发布](https://www.usgs.gov/data/geologic-map-schema-gems-version-state-geologic-map-compilation-sgmc-geodatabase-conterminous)，DOI [10.5066/P1A3DQZK](https://doi.org/10.5066/P1A3DQZK)，发布日为 2026-06-08；官方标注 CC0 1.0。它由各州不同尺度的地质图汇编，州界地质单元尚未统一，不能当作均匀尺度的新地质真值。固定 ZIP 为 1,818,900,910 B，SHA256 `9e3c4fbbb520b7f1a7ca1a3f838c9963565b4e73034b67a4ac0a4912a71903f0`，115 个必要成员仅保留本地。
 
-遥感采用 [Earth Search sentinel-2-c1-l2a 集合](https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a)，固定 2023-06-01 至 2023-10-01 右开时间范围、六波段与 SCL。当前选定 508 景、128 个 MGRS，实际取得的是必要 COG 字节范围，不是全部整景文件。遵循该集合及上游 Copernicus 来源、署名与使用条件；本仓库不镜像原影像或处理数组。
+遥感采用 [Earth Search sentinel-2-c1-l2a 集合](https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a)，固定 2023-06-01 至 2023-10-01 右开时间范围、六波段与 SCL。10月3日两景版本选定 508 景、128 个 MGRS，实际取得的是必要 COG 字节范围，不是全部整景文件。遵循该集合及上游 Copernicus 来源、署名与使用条件；本仓库不镜像原影像或处理数组。
 
 公开新增材料只有自有分区覆盖图、五分区聚合 CSV 与脱敏阶段汇总，来源标识及 SHA256 见[附件清单](../results/mm-reduced-v1/provenance.json)。它们不包含矿点身份、逐格预测、原像元或第三方论文全文。固定知识表示参考 [USGS 18b](https://pubs.usgs.gov/bul/b1693/html/bull7nxq.htm)，但所需侵入岩无法从允许的概化字段可靠映射，K 尚未构造；不能把知识候选写成已投入模型。
+
+## 10月12日第三景派生版本
+
+cap3在相同时间范围、图块支持和质量规则下统一增加251景，总759景，R五分区覆盖通过；原508景版本的失败保留。来源仍为同一Sentinel-2多光谱集合，不是新高光谱资料。公开新增仅模型级验证统计、五分区面积聚合和汇报摘要，选用来源与SHA见[cap3来源清单](../results/cap3-validation-v1/provenance.json)。原影像、处理数组、样品身份、权重和完整日志不公开，第三方许可条件保持。
 
 ## 新岩性与勘查方向：数据需求待核实
 

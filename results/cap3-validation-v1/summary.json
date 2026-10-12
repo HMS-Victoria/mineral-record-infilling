@@ -1,0 +1,59 @@
+{
+  "version": "reduced_cap3_v1",
+  "as_of": "2026-10-12T17:59:39+08:00",
+  "scope_sha256": "879e2aae39f5378ecf800a6a8e7f7e567c412020b252823020b4a8e495bec014",
+  "evaluation_status": "not_executed",
+  "validation_use": "checkpoint_selection",
+  "validation_tiles": 6,
+  "validation_valid_cells": 13943,
+  "L_km": 10,
+  "keep_fraction": 1.0,
+  "formal_NN_fits_complete": 15,
+  "formal_RF_target_fits_complete": 10,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "R_role_threshold": 0.8,
+  "R_cell_qualification_threshold": 0.6,
+  "NN_validation_summary": {
+    "M": {
+      "AP_mean": 0.13756162689962087,
+      "AP_sample_sd": 0.027609923539438502,
+      "Gold_AP_mean": 0.16391383722171243,
+      "Copper_AP_mean": 0.11120941657752931
+    },
+    "MG": {
+      "AP_mean": 0.05748397421947645,
+      "AP_sample_sd": 0.010292239070100889,
+      "Gold_AP_mean": 0.07635874511429228,
+      "Copper_AP_mean": 0.03860920332466063
+    },
+    "MR": {
+      "AP_mean": 0.05512343419487507,
+      "AP_sample_sd": 0.0022020268847407726,
+      "Gold_AP_mean": 0.07753475165951235,
+      "Copper_AP_mean": 0.03271211673023781
+    },
+    "MGR": {
+      "AP_mean": 0.04247365251376644,
+      "AP_sample_sd": 0.002455956015575055,
+      "Gold_AP_mean": 0.05385472479544976,
+      "Copper_AP_mean": 0.03109258023208312
+    },
+    "GR": {
+      "AP_mean": 0.04310955477008442,
+      "AP_sample_sd": 0.002595259213830615,
+      "Gold_AP_mean": 0.053715466312935264,
+      "Copper_AP_mean": 0.032503643227233585
+    }
+  },
+  "scientific_limits": [
+    "Validation participates in checkpoint selection; no held-out formal evaluation.",
+    "Three seeds describe run variability, not independent geological samples or confidence intervals.",
+    "AP ranks artificially hidden registered records, not calibrated mineral or drillhole probability.",
+    "Previously exposed regions and labels; no new independent confirmation.",
+    "Coverage gain is data admission, not model performance gain."
+  ]
+}

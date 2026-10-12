@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "label": "2026-10-12训练终态与验证快照",
+      "sha256": "a75ef0ae4eea92e3325f026b9c86073c3a4153bc866daebf6c6bf9f4f9454712"
+    },
+    {
+      "label": "cap3 R生产准入",
+      "sha256": "e44292514c0f8e7073119b4368b660752a037da01768cded4ccc874f7921b7a4"
+    },
+    {
+      "label": "cap3 R保存输出独立复算",
+      "sha256": "33e30f606d1f2a6e7545c43d22952a7852ad46d4b27015da7027da16b1586490"
+    },
+    {
+      "label": "旧cap2 R准入",
+      "sha256": "295bc5a53a790e5e3d4b00bd14fae11b1a9802f25ec56addb9f8e3192026b7b1"
+    },
+    {
+      "label": "17:59本地备份验证记录",
+      "sha256": "6ad9405003f1ca05d569a8ed1036d086335da03c629f5567281321573a2e00b4"
+    },
+    {
+      "label": "拟合产物备份文件清单",
+      "sha256": "e739033141855e97ceef7e760f89a8d83484a5f6441f1c82b27755b87c2e5778"
+    }
+  ],
+  "public_assets": {
+    "NN_validation.csv": {
+      "sha256": "89fd104bd5cb71e37dae0b732d00df1fdc454519ac2c2ae1b3dd3f1600a66371",
+      "bytes": 1198
+    },
+    "R_role_coverage.csv": {
+      "sha256": "a9c39ee5874d83fbd3ea0124317f9c178be2a93e72b279d6804f14b9cb5e1104",
+      "bytes": 511
+    },
+    "summary.json": {
+      "sha256": "3ac4f05eb16d2d9839f8cce204813384fc8a67728659aa9767e8b0a4bf3e1c90",
+      "bytes": 1973
+    }
+  },
+  "selection": "Only model-level validation aggregates and role-level coverage; source records, logs, archives and weights remain private."
+}
