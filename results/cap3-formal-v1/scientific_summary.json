@@ -1,0 +1,100 @@
+{
+  "version": "reduced_cap3_v1",
+  "formal_evaluation_runtime": "CPU FP32, one tile per forward",
+  "completed_at_utc": "2026-10-14T02:59:36.636484+00:00",
+  "scientific_summary": {
+    "primary_condition": "L10, 25%, MGR-M; 3 repeats x 3 seeds x 3 regions x 2 targets equally weighted",
+    "primary_pairs": 54,
+    "gate_absolute_tolerance": 1e-12,
+    "MGR_AP": 0.08119293057179008,
+    "M_AP": 0.08854125515444415,
+    "AP_difference": -0.007348324582654074,
+    "relative_AP_difference": -0.08299322807019457,
+    "coverage5_difference": -0.01500530136531794,
+    "full_context_AP_difference": -0.1271918843979006,
+    "region_marginals": {
+      "nevada": 0.006520820037441523,
+      "arizona": 0.015199523114303642,
+      "colorado": -0.04376531689970739
+    },
+    "seed_marginals": {
+      "17": -0.006392118399387969,
+      "29": -0.019096080173534105,
+      "43": 0.003443224824959851
+    },
+    "continuation_gates": {
+      "relative_AP_ge_5pct": false,
+      "positive_regions_ge_2": true,
+      "positive_seeds_ge_2": false,
+      "coverage5_drop_le_2pp": true,
+      "full_context_AP_difference_nonnegative": false
+    },
+    "meets_registered_investment_conditions": false,
+    "primary_UNet_baseline_differences": {
+      "same_modal_RF": {
+        "ap": -0.09921609376850402,
+        "coverage_1": -0.03596966683736737,
+        "coverage_5": -0.11339605887516123,
+        "coverage_10": -0.177298078200903
+      },
+      "KDE": {
+        "ap": -0.09884076444480705,
+        "coverage_1": -0.035369804161468926,
+        "coverage_5": -0.12603579503460494,
+        "coverage_10": -0.16137944732754145
+      },
+      "nearest": {
+        "ap": -0.05313023893948245,
+        "coverage_1": -0.04013019421650914,
+        "coverage_5": -0.08556456756474447,
+        "coverage_10": -0.09367135879941343
+      }
+    },
+    "independent_geological_confirmation": false,
+    "calibrated_prospectivity_probability": false,
+    "causal_remote_sensing_claim": false,
+    "K_admitted": false
+  },
+  "support": [
+    {
+      "region": "nevada",
+      "cells": 7500,
+      "area_km2": 30000.0,
+      "Gold_positive_cells": 601,
+      "Copper_positive_cells": 248
+    },
+    {
+      "region": "arizona",
+      "cells": 7500,
+      "area_km2": 30000.0,
+      "Gold_positive_cells": 457,
+      "Copper_positive_cells": 448
+    },
+    {
+      "region": "colorado",
+      "cells": 7500,
+      "area_km2": 30000.0,
+      "Gold_positive_cells": 468,
+      "Copper_positive_cells": 265
+    }
+  ],
+  "execution_counts": {
+    "logical_views": 704,
+    "physical_prediction_files": 526,
+    "main_metric_rows": 2112,
+    "phase_metric_rows": 4224,
+    "stratified_metric_rows": 21120,
+    "reload_process_checks": 55,
+    "independently_recomputed_metric_rows": 27456,
+    "registered_numeric_checks": 58778,
+    "new_fits": 0,
+    "GPU_used": false
+  },
+  "limits": [
+    "Previously exposed regions; exploratory, not new blind geological confirmation.",
+    "Missing original cloud resource snapshot compute_B_snapshot.json; original B archive not fully verified.",
+    "No cloud grid predictions were obtained; no CPU/CUDA grid-level equivalence claim.",
+    "Independent metric review and reloading are source-record claims; publication maintenance only rechecks hashes and aggregate arithmetic.",
+    "AP ranks artificially hidden registered records, not mineral discovery or calibrated drillhole probability."
+  ]
+}

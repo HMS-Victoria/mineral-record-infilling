@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "label": "正式评价主指标",
+      "sha256": "776ec89c92ed9ee129ea78579b6fbe705a2033bb5ff4fe00e1b4eed5d6e26b49"
+    },
+    {
+      "label": "科学比较与继续判据",
+      "sha256": "f0c9e2a15ef033db306114e42e20313fe65281f33ab2a9e515267815cd924f83"
+    },
+    {
+      "label": "正式评价汇总",
+      "sha256": "63f3fec316c719b092801a8f81260727977842c93da65d01145c64d3bf6f9666"
+    },
+    {
+      "label": "成功恢复终态",
+      "sha256": "0edacfa27d144a02a431469e5aeae32fa33b1c4b8ea5b8db6908ee87b312e871"
+    },
+    {
+      "label": "保存预测独立复算",
+      "sha256": "62eeed5a140618e136a44313c503cef6b76c7d1c1fd7d7f5dcdb5dbdcc979f15"
+    },
+    {
+      "label": "配对判据独立复核",
+      "sha256": "1c62e770dacf3962ca7943bb8c13f73260b3bc0b08d53ba03b6a1e94dff4ae25"
+    },
+    {
+      "label": "原云资源快照缺项核验",
+      "sha256": "d500aac1dbca95cd5ce4c64fbcbf5480baecee73cb8cb025561e49aa88e451cb"
+    }
+  ],
+  "public_assets": {
+    "results/cap3-formal-v1/main_metrics.csv": {
+      "bytes": 276780,
+      "sha256": "bd82d1c12e9e7b10dad7654426a28fbdccf341dfcd397c5ef852596aa67edfd8"
+    },
+    "results/cap3-formal-v1/comparisons.csv": {
+      "bytes": 5511,
+      "sha256": "b4fc119b737ae509f1198e25c4844d948b42b38c9bb9de6a63e5aef9d5ffdb35"
+    },
+    "results/cap3-formal-v1/scientific_summary.json": {
+      "bytes": 3415,
+      "sha256": "c4f0f7a67c87666519b8678a92c7307e425e82b7982ffe55a88a2228074d6a21"
+    },
+    "figures/cap3-formal-v1/modality_comparison.png": {
+      "bytes": 55942,
+      "sha256": "0fcde0cf008823e10394a9e2bffe7ab2ea26f6b10ec63029930758d88193bf22"
+    },
+    "figures/cap3-formal-v1/context_response.png": {
+      "bytes": 129846,
+      "sha256": "4f339a00899cf122bd7d44505ebebab9798877c0aa49d009bb4080acf834c7c8"
+    }
+  },
+  "figure_sources": {
+    "figures/cap3-formal-v1/modality_comparison.png": {
+      "source_filename": "04_modality_comparison.png",
+      "source_sha256": "0fcde0cf008823e10394a9e2bffe7ab2ea26f6b10ec63029930758d88193bf22",
+      "copy": "byte_identical_self_authored_aggregate_plot"
+    },
+    "figures/cap3-formal-v1/context_response.png": {
+      "source_filename": "02_context_response.png",
+      "source_sha256": "4f339a00899cf122bd7d44505ebebab9798877c0aa49d009bb4080acf834c7c8",
+      "copy": "byte_identical_self_authored_aggregate_plot"
+    }
+  }
+}
