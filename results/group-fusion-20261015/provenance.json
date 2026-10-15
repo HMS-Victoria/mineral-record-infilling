@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "label": "首轮全部指标与混淆矩阵",
+      "sha256": "e6f68a098d67474918c4ea34814fe7de75f2c793d18624e81418c1f3fb4371ca"
+    },
+    {
+      "label": "首轮本地逐预测复算回执",
+      "sha256": "1377343ce8b681060a2c5c1e020a5cf54b1d8f82f74da23b0a165d6871600b2c"
+    },
+    {
+      "label": "首轮训练产物审计",
+      "sha256": "3e8dea6a7d764cf29d5865c7d474e4178b0e581cdf323e6d15e743aadc1ade68"
+    },
+    {
+      "label": "评价恢复重叠检查",
+      "sha256": "f36a51eabe5a009618b9255917ddbc35a5ad43f969b4c0d3df6dd629356293ab"
+    },
+    {
+      "label": "补充对照全部指标及权重聚合",
+      "sha256": "8bc1eb64450ae56002b725031ac6632e27866de5237e54a36f12e5a90ee99ee3"
+    },
+    {
+      "label": "补充对照最终验收",
+      "sha256": "5d98fb967c76207bc4cb38c168410e92f552adea931a5d9602b5cb17215a8ec8"
+    },
+    {
+      "label": "补充权重与轨迹审计",
+      "sha256": "3429b02613f67602b77cd7f8b86860c80a0e3fe50745a6fbedd94190bbf57663"
+    },
+    {
+      "label": "继续训练本地逐预测复算回执",
+      "sha256": "e6fa024b16a7872c037f178e3ff492d7831de9a2b41ecd862db1ccfed4989cbb"
+    },
+    {
+      "label": "特征模型本地逐预测复算回执",
+      "sha256": "ab4eca20f3ddddcfa19dc725ce37b5cc8246274664cf2da3358c96a0aaa94dec"
+    },
+    {
+      "label": "补充对照预先固定范围",
+      "sha256": "f0477aed5047a2516872f54d62e8716fef32c1fb3653059247eb5c191921797a"
+    },
+    {
+      "label": "历史资源快照恢复件",
+      "sha256": "defd0bc857c9d7d5a46a88d25bd02302dd0793527ec86e9e1443ddc92bb69246"
+    }
+  ],
+  "public_assets": {
+    "results/group-fusion-20261015/aggregate_records.json": {
+      "bytes": 745194,
+      "sha256": "422f0e0a2fa1b272b0e6c3ae6a69ea95c9eaf9198e3c5128f3e5b89fab7cfef0"
+    },
+    "results/group-fusion-20261015/metrics.csv": {
+      "bytes": 75145,
+      "sha256": "9684de3b6ff3353808f8f992f8247248ff02139623cabe6b21441b15d13b910b"
+    },
+    "results/group-fusion-20261015/summary.json": {
+      "bytes": 35584,
+      "sha256": "754d9d873a369793eeca1235ef053786ac8f8d7c087e562d0cf6cdadacda71d4"
+    },
+    "results/group-fusion-20261015/weight_diagnostics.json": {
+      "bytes": 10239,
+      "sha256": "54318dc5716c57a538ccdd6da589bdbe10e8ebe268a06c426e4ced8b603a5c20"
+    },
+    "figures/group-fusion-20261015/feature_fusion_comparison.png": {
+      "bytes": 37405,
+      "sha256": "f02c35caab636ce09ed45e96f269e346d404e525656520bf0c029299b4520530"
+    }
+  },
+  "figure_source": {
+    "filename": "feature_fusion_comparison.png",
+    "sha256": "f02c35caab636ce09ed45e96f269e346d404e525656520bf0c029299b4520530",
+    "copy": "byte_identical_self_authored_aggregate_plot"
+  },
+  "aggregate_extraction": "v1 504 rows + newly fitted global_continue 63 rows + features 189 rows; old C/D/A references in continuation are checked equal to v1 and not duplicated."
+}

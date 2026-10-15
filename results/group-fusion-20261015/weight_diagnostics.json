@@ -1,0 +1,441 @@
+{
+  "model": "feature_weighted",
+  "group_order": [
+    "vnir",
+    "swir",
+    "lwir"
+  ],
+  "sample_count_per_seed_condition": 8192,
+  "per_seed_condition": [
+    {
+      "seed": 17,
+      "condition": "clean",
+      "sample_count": 8192,
+      "mean": [
+        0.27226363958834554,
+        0.34390688362327637,
+        0.38382948627258884
+      ],
+      "std_population": [
+        0.001671408701598773,
+        0.0020489872047274754,
+        0.0033216395633786583
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 17,
+      "condition": "missing_vnir",
+      "sample_count": 8192,
+      "mean": [
+        0.0,
+        0.4756254165477003,
+        0.524374589927902
+      ],
+      "std_population": [
+        0.0,
+        0.0035037000228833283,
+        0.003503699544325758
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 17,
+      "condition": "missing_swir",
+      "sample_count": 8192,
+      "mean": [
+        0.4445875471137697,
+        0.0,
+        0.5554124594273162
+      ],
+      "std_population": [
+        0.0033652784619278963,
+        0.0,
+        0.003365278950094006
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 17,
+      "condition": "missing_lwir",
+      "sample_count": 8192,
+      "mean": [
+        0.4948003966273973,
+        0.5051996088659507,
+        0.0
+      ],
+      "std_population": [
+        0.0010911092175960803,
+        0.0010911088702766575,
+        0.0
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 17,
+      "condition": "noise_vnir",
+      "sample_count": 8192,
+      "mean": [
+        0.23555967548782064,
+        0.3548992520882166,
+        0.409541080451163
+      ],
+      "std_population": [
+        0.005545372273044083,
+        0.0026880008687736622,
+        0.005088411861362532
+      ],
+      "noisy_group_mean_delta_from_clean": -0.0367039641005249
+    },
+    {
+      "seed": 17,
+      "condition": "noise_swir",
+      "sample_count": 8192,
+      "mean": [
+        0.26830558571236907,
+        0.31549676639406243,
+        0.4161976578834583
+      ],
+      "std_population": [
+        0.001769797977606563,
+        0.0032628641928942486,
+        0.004462158047972339
+      ],
+      "noisy_group_mean_delta_from_clean": -0.028410117229213938
+    },
+    {
+      "seed": 17,
+      "condition": "noise_lwir",
+      "sample_count": 8192,
+      "mean": [
+        0.26490211291638843,
+        0.362213794112904,
+        0.3728841013398778
+      ],
+      "std_population": [
+        0.0017309612281399616,
+        0.0028523449603684928,
+        0.0033994202430748764
+      ],
+      "noisy_group_mean_delta_from_clean": -0.010945384932711022
+    },
+    {
+      "seed": 29,
+      "condition": "clean",
+      "sample_count": 8192,
+      "mean": [
+        0.24686948407179443,
+        0.384072630899027,
+        0.3690578925306909
+      ],
+      "std_population": [
+        0.0021529409173919435,
+        0.0015813059708880098,
+        0.002697981832133172
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 29,
+      "condition": "missing_vnir",
+      "sample_count": 8192,
+      "mean": [
+        0.0,
+        0.5343272648387938,
+        0.46567274154222105
+      ],
+      "std_population": [
+        0.0,
+        0.002551021406820208,
+        0.002551021049185281
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 29,
+      "condition": "missing_swir",
+      "sample_count": 8192,
+      "mean": [
+        0.40711798431220814,
+        0.0,
+        0.5928820234767045
+      ],
+      "std_population": [
+        0.0035213179218878832,
+        0.0,
+        0.003521317426953188
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 29,
+      "condition": "missing_lwir",
+      "sample_count": 8192,
+      "mean": [
+        0.378530829151714,
+        0.6214691793356906,
+        0.0
+      ],
+      "std_population": [
+        0.0010413881402694355,
+        0.0010413886297421433,
+        0.0
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 29,
+      "condition": "noise_vnir",
+      "sample_count": 8192,
+      "mean": [
+        0.2150916694336047,
+        0.4019066014516284,
+        0.38300173719471786
+      ],
+      "std_population": [
+        0.004995866173656311,
+        0.0031093217685124095,
+        0.0033306196459881384
+      ],
+      "noisy_group_mean_delta_from_clean": -0.03177781463818974
+    },
+    {
+      "seed": 29,
+      "condition": "noise_swir",
+      "sample_count": 8192,
+      "mean": [
+        0.24035409266616625,
+        0.3487217677757144,
+        0.4109241484111408
+      ],
+      "std_population": [
+        0.0022415424204225566,
+        0.0035956150133139636,
+        0.004749242498633855
+      ],
+      "noisy_group_mean_delta_from_clean": -0.03535086312331259
+    },
+    {
+      "seed": 29,
+      "condition": "noise_lwir",
+      "sample_count": 8192,
+      "mean": [
+        0.23164372960491164,
+        0.4181986703151779,
+        0.3501576077651407
+      ],
+      "std_population": [
+        0.0025164021028630866,
+        0.004032586872238039,
+        0.003284202452134975
+      ],
+      "noisy_group_mean_delta_from_clean": -0.018900284765550168
+    },
+    {
+      "seed": 43,
+      "condition": "clean",
+      "sample_count": 8192,
+      "mean": [
+        0.2810960554597841,
+        0.3284615028933331,
+        0.3904424519460008
+      ],
+      "std_population": [
+        0.0008802139167261888,
+        0.0019607696817486872,
+        0.002437761822838351
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 43,
+      "condition": "missing_vnir",
+      "sample_count": 8192,
+      "mean": [
+        0.0,
+        0.45861550388508476,
+        0.5413845020739245
+      ],
+      "std_population": [
+        0.0,
+        0.0029209298423670186,
+        0.002920929901749117
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 43,
+      "condition": "missing_swir",
+      "sample_count": 8192,
+      "mean": [
+        0.44800003994168947,
+        0.0,
+        0.551999966504809
+      ],
+      "std_population": [
+        0.001982970059077741,
+        0.0,
+        0.001982970259018855
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 43,
+      "condition": "missing_lwir",
+      "sample_count": 8192,
+      "mean": [
+        0.49305101290883613,
+        0.5069489924426307,
+        0.0
+      ],
+      "std_population": [
+        0.0005587004091151158,
+        0.0005587004977954403,
+        0.0
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    {
+      "seed": 43,
+      "condition": "noise_vnir",
+      "sample_count": 8192,
+      "mean": [
+        0.25809463143923494,
+        0.32737438729964197,
+        0.4145309921914304
+      ],
+      "std_population": [
+        0.00352109746976507,
+        0.002022759515976861,
+        0.004423389801548869
+      ],
+      "noisy_group_mean_delta_from_clean": -0.023001424020549166
+    },
+    {
+      "seed": 43,
+      "condition": "noise_swir",
+      "sample_count": 8192,
+      "mean": [
+        0.27190219385374803,
+        0.31074229737350834,
+        0.4173555190427578
+      ],
+      "std_population": [
+        0.001211926300885386,
+        0.002512667504261307,
+        0.00345881068097578
+      ],
+      "noisy_group_mean_delta_from_clean": -0.017719205519824754
+    },
+    {
+      "seed": 43,
+      "condition": "noise_lwir",
+      "sample_count": 8192,
+      "mean": [
+        0.2717728972565965,
+        0.338176037199446,
+        0.3900510756029689
+      ],
+      "std_population": [
+        0.0012807146569636513,
+        0.0022036410041428346,
+        0.0023563311748361656
+      ],
+      "noisy_group_mean_delta_from_clean": -0.0003913763430318795
+    }
+  ],
+  "three_seed_mean": {
+    "clean": {
+      "mean": [
+        0.26674305970664136,
+        0.35214700580521213,
+        0.3811099435830935
+      ],
+      "mean_within_seed_std": [
+        0.0015681878452389684,
+        0.0018636876191213908,
+        0.00281912773945006
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    "missing_vnir": {
+      "mean": [
+        0.0,
+        0.48952272842385963,
+        0.5104772778480159
+      ],
+      "mean_within_seed_std": [
+        0.0,
+        0.0029918837573568516,
+        0.002991883498420052
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    "missing_swir": {
+      "mean": [
+        0.4332351904558891,
+        0.0,
+        0.5667648164696099
+      ],
+      "mean_within_seed_std": [
+        0.002956522147631174,
+        0.0,
+        0.0029565222120220163
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    "missing_lwir": {
+      "mean": [
+        0.4554607462293158,
+        0.5445392602147573,
+        0.0
+      ],
+      "mean_within_seed_std": [
+        0.0008970659223268771,
+        0.0008970659992714137,
+        0.0
+      ],
+      "noisy_group_mean_delta_from_clean": null
+    },
+    "noise_vnir": {
+      "mean": [
+        0.23624865878688675,
+        0.3613934136131623,
+        0.4023579366124371
+      ],
+      "mean_within_seed_std": [
+        0.004687445305488488,
+        0.002606694051087644,
+        0.004280807102966513
+      ],
+      "noisy_group_mean_delta_from_clean": -0.0304944009197546
+    },
+    "noise_swir": {
+      "mean": [
+        0.26018729074409447,
+        0.3249869438477617,
+        0.4148257751124523
+      ],
+      "mean_within_seed_std": [
+        0.0017410888996381684,
+        0.003123715570156506,
+        0.004223403742527325
+      ],
+      "noisy_group_mean_delta_from_clean": -0.027160061957450427
+    },
+    "noise_lwir": {
+      "mean": [
+        0.2561062465926322,
+        0.3728628338758426,
+        0.3710309282359958
+      ],
+      "mean_within_seed_std": [
+        0.0018426926626555664,
+        0.003029524278916456,
+        0.003013317956682006
+      ],
+      "noisy_group_mean_delta_from_clean": -0.01007901534709769
+    }
+  },
+  "boundary": "Fixed point-ID diagnostic sample. Weights are not geological contributions; end-to-end encoder/head scaling makes their absolute interpretation non-unique."
+}
