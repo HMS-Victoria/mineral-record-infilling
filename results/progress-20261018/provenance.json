@@ -1,0 +1,159 @@
+{
+  "sources": [
+    {
+      "label": "Tinto诊断终态",
+      "sha256": "dc052a02d7b75f9afbe2720e0ad1c93c6a517518c22e96c31e18c5d05f48476f"
+    },
+    {
+      "label": "Tinto独立审核",
+      "sha256": "3d9beba380ad1abc65b51bf54a59321b53eb2f7c7448d423580e652ce655ef1a"
+    },
+    {
+      "label": "Tinto互补计数",
+      "sha256": "83bef5cb54d1f61e44ab659f1c07911f098e953aba971f863161945308751005"
+    },
+    {
+      "label": "Tinto扰动计数",
+      "sha256": "9940a4ad4fa4d19d841e747b8ac4910c22fdf7fddc3a08ac54cbf79f88ca1b02"
+    },
+    {
+      "label": "Cuprite早期核查验收",
+      "sha256": "4ce43695b5623c7aceaeab85f1865d0ea82098c4e4612f3580b5effb20c53979"
+    },
+    {
+      "label": "历史覆盖率 验收结果.json",
+      "sha256": "32cdd967c74c97cda30c7f58ff712dce1c175d9946b27fcc1e955adde2ed873e"
+    },
+    {
+      "label": "历史覆盖率 review/independent_results_check.json",
+      "sha256": "7bbb851fd26a4662c9d2e05c347f6832fb104cb2edcd3b4bf1f21c55161f58e7"
+    },
+    {
+      "label": "历史覆盖率 analysis/summary.json",
+      "sha256": "14704d3d15f7c48c124e7741831c396043951d659d43484d751fe88c1316e07a"
+    },
+    {
+      "label": "历史覆盖率 results_v1/metrics.csv",
+      "sha256": "08729c7c2c3bf963ef244dc9b4640dd0d925a5179da00cfb181559a8b703f9f4"
+    },
+    {
+      "label": "历史覆盖率 results_v1/fixed_prediction_sensitivity.csv",
+      "sha256": "4373252d4cfe971624ecb69f86e5785cf45b62a6b5864ff877e47e1653765649"
+    },
+    {
+      "label": "航磁表示 验收结果.json",
+      "sha256": "625ee9fe0ef18aeaa81b465e10994112907af299808d7af18ad9d4d9b5fb7585"
+    },
+    {
+      "label": "航磁表示 review/independent_results_check.json",
+      "sha256": "ff4694b7cb314540dcebb5bdb90277e3b3f86febed7f33df04294d01b8de9c0b"
+    },
+    {
+      "label": "航磁表示 analysis/summary.json",
+      "sha256": "cc8d8fea144163eb32ce1f85d869fc2f77fea376a78d482892a50c412f50ccdd"
+    },
+    {
+      "label": "航磁表示 results_v1/metrics.csv",
+      "sha256": "238cfa6d6d7ac624e50a8e22f965ab95bb30842e949e082cc68940a83a8eab4f"
+    },
+    {
+      "label": "航磁表示 results_v1/fixed_prediction_sensitivity.csv",
+      "sha256": "d32795bf6fdb95d47a6c547a34c9e0bccbcd8d904e250ce5983863f1fbb22ee1"
+    },
+    {
+      "label": "岩性准备 验收结果.json",
+      "sha256": "dc111c1491373047943d63c52069c9c2bde4b3e261db0730f7e21eb84cd62da9"
+    },
+    {
+      "label": "岩性准备 admission.json",
+      "sha256": "8243e6de8bda6dfd8c1cf812e313f47eb5f86d4c05b7d25a1456359a1889cb1a"
+    },
+    {
+      "label": "岩性准备 registration/registration_result.json",
+      "sha256": "c2d6bd18de4b745c02c0c5e1e3d79b29179a710e26cc014cccede958bbf6c3fc"
+    },
+    {
+      "label": "岩性准备 spectral/extraction_summary.json",
+      "sha256": "11f14282be5c6e837feb8c27fa2edb902b6e3122a857d0c38f13583517c30932"
+    },
+    {
+      "label": "岩性准备 spectral/S_definition_frozen.json",
+      "sha256": "a93c012bd180ecbcfa5aca08d389654ee14b30bb7c1ce7a19c387b3addc453f8"
+    },
+    {
+      "label": "岩性准备 review/reference_independent_check.json",
+      "sha256": "d6162a9d3596034115b67a3f7349df89188b82901766b80d3da21cd236be7a77"
+    },
+    {
+      "label": "岩性准备 review/S_cells_independent_check.json",
+      "sha256": "0c595a37f4d180c026e6de3b4a270adf98550a07062c7b333bac1e89173dfa28"
+    },
+    {
+      "label": "岩性准备 review/final_checks.json",
+      "sha256": "0c1bb98315e5960dba006455988c3cefe7800594a5b3a497c309471b2abdd214"
+    }
+  ],
+  "public_assets": {
+    "results/progress-20261018/coverage_metrics.csv": {
+      "bytes": 158252,
+      "sha256": "1bdf244cdada4bd68f9ff66858319566303271decfb548f2f110936a91465273"
+    },
+    "results/progress-20261018/coverage_fixed.csv": {
+      "bytes": 121654,
+      "sha256": "d06e736e2cb619a9bfc6c28dc5925b8a992ee91ededaea5ad4d8a5c677b9554e"
+    },
+    "results/progress-20261018/magnetic_metrics.csv": {
+      "bytes": 113267,
+      "sha256": "fe81ca02faae5985553e3e512b9296652cb541d22230b3f54081821257834d90"
+    },
+    "results/progress-20261018/magnetic_fixed.csv": {
+      "bytes": 81267,
+      "sha256": "02c003815bce6206ec4b4a8337a5064892c02e9f95e75bde75290976cb00ddd9"
+    },
+    "results/progress-20261018/tinto_complementarity.json": {
+      "bytes": 1533148,
+      "sha256": "c0e443c85b1b86502a5181f1d6a78b78e00103e862498aefa0609642fc7e94e4"
+    },
+    "results/progress-20261018/tinto_transitions.json": {
+      "bytes": 297605,
+      "sha256": "79bba49dea0216021189f543f7a917864e9f597dcb566f04b2452f1b63192c6f"
+    },
+    "results/progress-20261018/summary.json": {
+      "bytes": 85374,
+      "sha256": "234a7a7a5c5b0e116abb1c827d5ab654b6107bc79f9f7e47bcf1c09b66db7567"
+    },
+    "figures/progress-20261018/tinto_pairwise.png": {
+      "bytes": 110412,
+      "sha256": "e5f54b659755826700d30cdc3bb50673a1f36e120a267053d0b52925c9412d3b"
+    },
+    "figures/progress-20261018/cuprite_six_models.png": {
+      "bytes": 108968,
+      "sha256": "d078c2412ee73341d5a637fc30e20f69d04607d69510bea076b9ee3af297411c"
+    },
+    "figures/progress-20261018/magnetic_four_models.png": {
+      "bytes": 88809,
+      "sha256": "5edbc787e7e9072e4a3b81727398e14b9383a62c5fba5e36b06a935db34cf06b"
+    }
+  },
+  "figure_sources": [
+    {
+      "source_filename": "06_pairwise_complementarity.png",
+      "public_filename": "tinto_pairwise.png",
+      "sha256": "e5f54b659755826700d30cdc3bb50673a1f36e120a267053d0b52925c9412d3b",
+      "copy": "byte_identical_self_authored_aggregate_plot"
+    },
+    {
+      "source_filename": "六组名义对照.png",
+      "public_filename": "cuprite_six_models.png",
+      "sha256": "d078c2412ee73341d5a637fc30e20f69d04607d69510bea076b9ee3af297411c",
+      "copy": "byte_identical_self_authored_aggregate_plot"
+    },
+    {
+      "source_filename": "四组名义对照.png",
+      "public_filename": "magnetic_four_models.png",
+      "sha256": "5edbc787e7e9072e4a3b81727398e14b9383a62c5fba5e36b06a935db34cf06b",
+      "copy": "byte_identical_self_authored_aggregate_plot"
+    }
+  ],
+  "text_extraction": "Four aggregate CSV and two count JSON files preserve every source text byte except CRLF normalized to LF for strict whitespace checks; parsed values match. No per-cell prediction or label/feature table published."
+}
